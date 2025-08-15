@@ -160,7 +160,7 @@ const App = () => {
 
   // Main chat application UI
   return (
-    <div className={`flex flex-col h-screen font-sans ${darkMode ? 'dark' : ''} bg-gradient`}>
+    <div className={`flex flex-col h-screen font-sans dark.bg-gradient`}>
       <style>{styles}</style>
       <header className="bg-white dark:bg-gray-800 shadow-md p-4 flex justify-between items-center rounded-b-xl">
         <h1 className="text-xl font-bold text-indigo-600 dark:text-indigo-400">Multi-User Chat</h1>
